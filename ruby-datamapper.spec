@@ -1,4 +1,5 @@
 Summary:	ORM in the DataMapper pattern
+Summary(pl.UTF-8):	ORM we wzorcu DataMapper
 Name:		ruby-datamapper
 Version:	0.0.20070608
 Release:	1
@@ -6,7 +7,7 @@ License:	Ruby's
 Group:		Development/Languages
 Source0:	datamapper-0.0.20070608.tar.gz
 # Source0-md5:	2791245056d06c8036cef17b2057a6af
-URL:		http://datamapper.rubyforge.org
+URL:		http://datamapper.rubyforge.org/
 BuildRequires:	rpmbuild(macros) >= 1.277
 BuildRequires:	setup.rb = 3.3.1
 Requires:	ruby-builder
@@ -14,7 +15,10 @@ Requires:	ruby-builder
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-DataMapper is an Object-Relational mapper
+DataMapper is an Object-Relational mapper.
+
+%description -l pl.UTF-8
+DataMapper to mapper obiektowo-relacyjny.
 
 %prep
 %setup -q -n datamapper-%{version}
